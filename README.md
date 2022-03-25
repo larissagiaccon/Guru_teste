@@ -21,7 +21,7 @@ Para complementar o teste, foram implementados testes End-To-End cobrindo todos 
 
 ## :rocket: Tecnologias
 
-# Frontend
+### Frontend
 - [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled-components](https://styled-components.com/)
@@ -35,7 +35,7 @@ Para complementar o teste, foram implementados testes End-To-End cobrindo todos 
 - [Uuid](https://www.npmjs.com/package/uuid)
 - [Yup](https://www.npmjs.com/package/yup)
 
-# Backend
+### Backend
 - [NodeJS](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
