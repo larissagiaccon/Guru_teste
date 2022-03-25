@@ -45,7 +45,8 @@ Para complementar o teste, foram implementados testes End-To-End cobrindo todos 
 
 ## :rocket: Como executar o projeto
 
-# Frontend
+### Frontend
+
 ```bash
 # Clone este repositório
 $ git clone https://github.com/larissagiaccon/Guru_teste.git
@@ -66,7 +67,8 @@ $ yarn start
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
 
-# Backend
+### Backend
+
 ```bash
 # Clone este repositório
 $ git clone https://github.com/larissagiaccon/Guru_teste.git
@@ -86,3 +88,48 @@ $ yarn dev:server
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
+
+## :rocket: Realizando os testes
+
+### Frontend
+
+```bash
+# Após ter realizado o passo anterior para executar o projeto
+# Acesse a pasta do projeto no terminal/cmd
+$ cd frontend
+
+# Execute os testes implementados
+$ npm test
+# ou utilizando o yarn
+$ yarn test
+
+# Para executar o coverage e verificar a cobertura dos testes
+$ npm test:coverage
+# ou utilizando o yarn
+$ yarn test:coverage --silent
+
+# No diretório do projeto abra o arquivo em
+# \coverage\lcov-report\index.html
+```
+
+### Backend
+
+```bash
+# Após ter realizado o passo anterior para executar o projeto
+# Acesse a pasta do projeto no terminal/cmd
+$ cd backend
+
+# Execute os testes implementados
+$ npm test
+# ou utilizando o yarn
+$ yarn test
+
+# No diretório do projeto abra o arquivo em
+# \coverage\lcov-report\index.html
+```
+
+Feito com :heart: por Larissa Giaccon
+
+Entre em contato: [![Linkedin Badge](https://img.shields.io/badge/-LarissaGiaccon-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/larissagiaccon)](https://www.linkedin.com/in/larissagiaccon) 
+| 
+![Hotmail Badge](https://img.shields.io/badge/-larissa_souz@hotmail.com-0078D4?style=flat-square&amp;logo=microsoft-outlook&amp;logoColor=white&amp;link=mailto:larissa_souz@hotmail.com)
