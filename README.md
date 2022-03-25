@@ -21,7 +21,7 @@ Para complementar o teste, foram implementados testes End-To-End cobrindo todos 
 
 ## :rocket: Tecnologias
 
-## Frontend
+# Frontend
 - [ReactJS](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled-components](https://styled-components.com/)
@@ -35,10 +35,54 @@ Para complementar o teste, foram implementados testes End-To-End cobrindo todos 
 - [Uuid](https://www.npmjs.com/package/uuid)
 - [Yup](https://www.npmjs.com/package/yup)
 
-## Backend
+# Backend
 - [NodeJS](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
 - [BCryptjs](https://www.npmjs.com/package/bcryptjs)
 - [Tsyringe](https://www.npmjs.com/package/tsyringe)
 - [Uuid](https://www.npmjs.com/package/uuid)
+
+## :rocket: Como executar o projeto
+
+# Frontend
+```bash
+# Clone este repositório
+$ git clone https://github.com/larissagiaccon/Guru_teste.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd frontend
+
+# Instale as dependências
+$ npm install
+# ou utilizando o yarn
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+# ou
+$ yarn start
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
+
+# Backend
+```bash
+# Clone este repositório
+$ git clone https://github.com/larissagiaccon/Guru_teste.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd backend
+
+# Instale as dependências
+$ npm install
+# ou utilizando o yarn
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev:server
+# ou
+$ yarn dev:server
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
