@@ -13,6 +13,7 @@ Os requisitos do sistema desenvolvido são:
 
 - O usuário poderá se cadastrar informando seu nome, e-mail, e senha.
 - O usuário poderá listar os usuários cadastrados.
+- O usuário poderá buscar os usuários cadastrados por nome ou e-mail.
 - O usuário poderá excluir usuários cadastrados.
 - O usuário poderá alterar informações de um usuário específico.
 - O sistema deverá validar os dados dos usuários utilizando a ferramenta Yup.
