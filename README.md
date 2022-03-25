@@ -69,6 +69,9 @@ $ yarn start
 
 ### Backend
 
+:alert: Antes de iniciar o projeto crie um banco de dados com o nome "guru_teste". :alert:
+:alert: Caso necessário altere a porta do postgres no arquivo "ormconfig.json" para a porta configurada na sua máquina :alert:
+
 ```bash
 # Clone este repositório
 $ git clone https://github.com/larissagiaccon/Guru_teste.git
