@@ -1,0 +1,20 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5435,
+    "username": "postgres",
+    "password": "123",
+    "database": "guru_teste",
+    "entities": [
+      "./src/**/entities/**.ts"
+    ],
+    "migrations": [
+      "./src/database/migrations/**.ts"
+    ],
+    "cli": {
+      "migrationsDir": "./src/database/migrations"
+    }
+  }
+]
