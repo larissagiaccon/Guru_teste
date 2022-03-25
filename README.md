@@ -70,6 +70,7 @@ $ yarn start
 ### Backend
 
 :warning: Antes de iniciar o projeto crie um banco de dados com o nome "guru_teste". :warning:
+
 :warning: Caso necessário altere a porta do postgres no arquivo "ormconfig.json" para a porta configurada na sua máquina :warning:
 
 ```bash
